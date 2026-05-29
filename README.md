@@ -265,19 +265,6 @@ streamlit run app.py
 
 ---
 
-## Possible Future Improvements
 
-| Improvement | Benefit |
-|---|---|
-| Replace rule-based skill extraction with a SpaCy NER model | Catch skills not in the dictionary |
-| Use BERT / Sentence-Transformers for embeddings | Understand semantic meaning, not just word overlap |
-| Add a real-world job dataset from LinkedIn/Indeed | More diverse and realistic matches |
-| Implement synonym handling (sklearn = scikit-learn) | Reduce false "missing skill" results |
-| Add resume scoring feedback (ATS-style) | Explain why the score is what it is |
-| Store results in a database for multiple users | Multi-user support |
-| Add file support beyond PDF (DOCX, TXT) | Broader usability |
-| Deploy on Streamlit Cloud or Hugging Face Spaces | Share publicly with a URL |
-
----
 
 
